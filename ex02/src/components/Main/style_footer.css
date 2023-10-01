@@ -1,0 +1,27 @@
+.div_footer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_footer h1{
+    color: whitesmoke;
+}
+
+#hr_footer{
+    width: 60%;
+    margin-top: 10px;
+    border-color: rgb(5, 8, 196);
+}
+
+.icons{
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.icons img:hover{
+    transform: translateY(-10px);
+}
